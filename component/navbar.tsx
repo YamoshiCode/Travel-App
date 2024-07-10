@@ -5,7 +5,7 @@ import { NAV_LINKS } from "@/constants";
 import Button from "./Button";
 const Navbar = () => {
   return (
-    <div className = "py-5 px-6 z-30 justify-around  relative flex items-center "> 
+    <div className = "py-5 pb-10 px-6 z-30 justify-around  relative flex items-center "> 
         <Link href={"/"} className="justify-start">
         <Image src="/hilink-logo.svg" width={74} height={29} alt="Picture of the author"/>
         </Link>
@@ -17,7 +17,7 @@ const Navbar = () => {
           ))}
         </ul>
         <div className ="pt-1 hidden lg:block">
-         <Button title ="Login" iconcond = {true} color = "bg-black"/>
+         <Button title ="Login" iconcond = {true} color = "bg-[#292C27]"/>
         </div>
       
     </div>
